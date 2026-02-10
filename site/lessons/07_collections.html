@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Урок 7 — Списки и словари</title>
+    <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+    <header>
+        <h1>Урок 7 — Списки и словари</h1>
+        <nav>
+            <a href="../index.html">Главная</a>
+            <a href="01_hello.html">Уроки</a>
+            <a href="../cheatsheet.html">Шпаргалка</a>
+            <a href="../run-examples.html">Запуск примеров</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <p>Коллекции помогают хранить наборы данных.</p>
+            <pre><code id="code-07">покупки = список(["яблоки", "чай", "печенье"])
+покупки.append("сок")
+
+цены = словарь({"чай": 120, "сок": 90})
+цены["яблоки"] = 60
+
+печать(покупки)
+печать(цены)</code></pre>
+            <button class="copy-button" data-copy="code-07">Скопировать</button>
+        </section>
+    </main>
+    <script src="../script.js"></script>
+</body>
+</html>

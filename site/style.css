@@ -1,0 +1,95 @@
+:root {
+    color-scheme: light;
+    font-family: "Segoe UI", Arial, sans-serif;
+    line-height: 1.5;
+    --bg: #f8f9fb;
+    --card: #ffffff;
+    --text: #1f2937;
+    --accent: #2563eb;
+    --muted: #6b7280;
+    --border: #e5e7eb;
+}
+
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+}
+
+header {
+    background: var(--card);
+    border-bottom: 1px solid var(--border);
+    padding: 20px 32px;
+}
+
+nav a {
+    margin-right: 16px;
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+main {
+    max-width: 960px;
+    margin: 24px auto 48px;
+    padding: 0 24px;
+}
+
+.card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(15, 23, 42, 0.05);
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+}
+
+pre {
+    background: #0f172a;
+    color: #e2e8f0;
+    padding: 16px;
+    border-radius: 10px;
+    overflow-x: auto;
+}
+
+code {
+    font-family: "JetBrains Mono", Consolas, monospace;
+}
+
+.copy-button {
+    background: var(--accent);
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 8px;
+}
+
+.copy-button:disabled {
+    opacity: 0.6;
+    cursor: default;
+}
+
+.footer-note {
+    color: var(--muted);
+    font-size: 0.9rem;
+}
+
+ul.inline-list {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 24px;
+}
+
+ul.inline-list li {
+    background: #eef2ff;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
