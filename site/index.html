@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RuPy — русский синтаксис Python</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>RuPy — русский синтаксис поверх Python</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="lessons/01_hello.html">Уроки</a>
+            <a href="cheatsheet.html">Шпаргалка</a>
+            <a href="run-examples.html">Запуск примеров</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>Что это такое</h2>
+            <p>
+                RuPy — это учебный слой поверх обычного Python. Мы не переписываем интерпретатор, а
+                переводим русский синтаксис в стандартный Python-код и запускаем его через Python 3.11+.
+            </p>
+        </section>
+        <section class="card">
+            <h2>Установка и запуск</h2>
+            <ol>
+                <li>Установите пакет локально: <code>python -m pip install -e .</code></li>
+                <li>Запустите файл: <code>rupy run путь/к/файлу.rupy</code></li>
+                <li>Откройте REPL: <code>rupy repl</code></li>
+            </ol>
+        </section>
+        <section class="card">
+            <h2>Уроки</h2>
+            <ul>
+                <li><a href="lessons/01_hello.html">1. Привет, мир</a></li>
+                <li><a href="lessons/02_types.html">2. Переменные и типы</a></li>
+                <li><a href="lessons/03_conditions.html">3. Условия</a></li>
+                <li><a href="lessons/04_for.html">4. Цикл для + диапазон</a></li>
+                <li><a href="lessons/05_while.html">5. Цикл пока</a></li>
+                <li><a href="lessons/06_functions.html">6. Функции</a></li>
+                <li><a href="lessons/07_collections.html">7. Списки и словари</a></li>
+                <li><a href="lessons/08_strings.html">8. Строки</a></li>
+                <li><a href="lessons/09_exceptions.html">9. Исключения</a></li>
+                <li><a href="lessons/10_files.html">10. Работа с файлами</a></li>
+            </ul>
+        </section>
+        <p class="footer-note">Сайт статический — просто откройте файл в браузере или запустите локальный сервер.</p>
+    </main>
+</body>
+</html>

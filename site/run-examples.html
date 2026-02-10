@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Запуск примеров RuPy</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Запуск примеров</h1>
+        <nav>
+            <a href="index.html">Главная</a>
+            <a href="lessons/01_hello.html">Уроки</a>
+            <a href="cheatsheet.html">Шпаргалка</a>
+            <a href="run-examples.html">Запуск примеров</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>Команды для запуска</h2>
+            <p>Перейдите в корень проекта и выполните:</p>
+            <pre><code>rupy run examples/01_hello.rupy
+rupy run examples/03_conditions.rupy
+rupy run examples/10_files.rupy</code></pre>
+        </section>
+        <section class="card">
+            <h2>Показать сгенерированный Python</h2>
+            <pre><code>rupy run --show-python examples/04_for_range.rupy</code></pre>
+        </section>
+    </main>
+</body>
+</html>
